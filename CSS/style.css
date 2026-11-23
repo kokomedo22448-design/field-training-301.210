@@ -12,7 +12,55 @@
 
     /* <!-- ===================== Mary ============================== --> */
 
-                            /* <!-- اكتبي هنا --> */
+.schedule {
+    background-color: #656660;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.schedule h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.schedule p {
+    font-size: 16px;
+    color: #dddddd;
+}
+
+/* Food Gallery */
+.gallery {
+    background-color: white;
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #333;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.food-container img {
+    box-shadow: 0px 10px 50px rgba(236, 68, 2, 0.534);
+    width: 25%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food-container img:hover {
+    box-shadow: 0px 10px 50px rgba(236, 68, 2, 0.904);
+    transition: 1.4s;
+    transform: translateY(-15px);
+}
 
     /* <!-- ===================== Mary ============================== --> */
 
